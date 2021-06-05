@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+{% block title %} <title>Link_a {{cours.id}}</title> {% endblock %}
+{% block content %}
+<header>
+        <div class="card2">
+            <img src="{{cours.img.url}}" alt="">
+            <h4>{{cours.author}}</h4>
+            <h2>{{cours.course}}</h2>
+            <p>{{cours.reyting}}</p>
+        </div>
+</header>
+{% endblock %}  
